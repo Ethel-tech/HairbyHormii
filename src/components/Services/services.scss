@@ -1,0 +1,56 @@
+.service-section {
+    background-image: url(../../assets/image/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 3% 10%;
+
+    .bg-div {
+        background-color: #31353dc5;
+
+    }
+}
+
+.center-text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    &-div {
+        width: 50%;
+    }
+}
+
+.flex-div {
+    justify-self: center;
+    justify-items: center;
+
+    figure {
+        overflow: hidden;
+
+        img {
+            height: auto;
+            max-height: 350px;
+            width: 100%;
+        }
+
+        figcaption {
+            font-style: italic;
+            background-color: #fcbcb2b1;
+            font-size: 2rem;
+            color: #fff;
+            padding: 0.8rem;
+            position: relative;
+            bottom: 100px;
+            transition: 2s all;
+        }
+    }
+
+    figure:hover figcaption {
+        bottom: 240px;
+    }
+}
+
+
+.flex2 {
+    margin-top: -50px;
+}

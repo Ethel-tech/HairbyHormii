@@ -1,0 +1,27 @@
+@media screen and (max-width: 1920px) {
+    .flex-child {
+        flex: 0 0 350px;
+        max-width: 390px;
+        min-width: 200px;
+
+        img {
+            height: 350px;
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .flex-child {
+        flex: 0 0 350px;
+        max-width: 390px;
+        min-width: 200px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .flex-child {
+        flex: 0 0 300px;
+        max-width: 300px;
+    }
+}
