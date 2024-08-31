@@ -10,22 +10,22 @@ function MenuOverlay({ navbarOpen, setNavbarOpen }) {
 			}`}
 		>
 			<ul className="flex flex-col items-start">
-				<li className="nav-li flex w-full leading-8 list-none focus:outline-none group py-2 tracking-normal opacity-50 hover:opacity-100 transition-all duration-200 ease-in-out">
-					<a
+				<li className="nav-li flex w-full list-none focus:outline-none group py-2 tracking-normal hover:font-semibold transition-all duration-200 ease-in-out">
+					<Link
 						href="/"
-						className="nav-link h-full w-full py-2 text-lg text-black"
+						className="nav-link h-full w-full text-xl text-black"
 						onClick={(e) => {
 							e.preventDefault();
 							setNavbarOpen(false);
 						}}
 					>
 						Home
-					</a>
+					</Link>
 				</li>
-				<li className="nav-li">
+				<li className="nav-li flex w-full list-none focus:outline-none group py-2 tracking-normal hover:font-semibold transition-all duration-200 ease-in-out">
 					<Link
 						to="/gallery"
-						className="nav-link h-full w-full py-2 text-lg text-black"
+						className="nav-link h-full w-full text-xl text-black"
 						onClick={(e) => {
 							e.preventDefault();
 							setNavbarOpen(false);
@@ -34,10 +34,13 @@ function MenuOverlay({ navbarOpen, setNavbarOpen }) {
 						Gallery
 					</Link>
 				</li>
-				<li className="nav-li">
+				<li
+					className="nav-li flex w-full list-none focus:outline-none group py-2 tracking-normal 
+				  hover:font-semibold transition-all duration-200 ease-in-out"
+				>
 					<Link
 						href="/"
-						className="nav-link h-full w-full py-2 text-lg text-black"
+						className="nav-link h-full w-full text-xl text-black"
 						onClick={(e) => {
 							e.preventDefault();
 							setNavbarOpen(false);
@@ -46,15 +49,11 @@ function MenuOverlay({ navbarOpen, setNavbarOpen }) {
 						Contact
 					</Link>
 				</li>
-				<div className="flex gap-10 mt-10">
-					<Link to="/sign-up">
-						<CustomButton
-							btnText="Sign Up"
-							bgColor="#85C1E9"
-							txtColor="white"
-						/>
+				<li className="mt-10">
+					<Link to="/booking">
+						<CustomButton txt="Booking" bgCol="#31353d" txtCol="white" />
 					</Link>
-				</div>
+				</li>
 			</ul>
 		</nav>
 	);

@@ -30,7 +30,9 @@ function Header({ navbarOpen, setNavbarOpen }) {
 					</ul>
 				</div>
 				<div className="flex gap-7 hidden md:block">
-					<CustomButton txt="Book Now" bgCol="#FCBCB2" txtCol="#ffffff" />
+					<Link to="/booking">
+						<CustomButton txt="Book Now" bgCol="#FCBCB2" txtCol="#ffffff" />
+					</Link>
 				</div>
 				<button
 					className="md:hidden flex top-0 right-0 z-20 relative w-10 h-10 text-[#fcbcb2] focus:outline-none"
