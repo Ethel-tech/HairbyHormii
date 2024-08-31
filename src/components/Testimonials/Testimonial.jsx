@@ -26,7 +26,7 @@ function Testimonial() {
 				<button className="slider-button left" onClick={handlePrevious}>
 					<FontAwesomeIcon icon={faArrowLeft} />
 				</button>
-				<div className="testimonial-content px-24">
+				<div className="testimonial-content px-10 lg:px-24">
 					<img src={avatar} alt={name} className="avatar" />
 					<p className="testimonial">{testimonial}</p>
 					<h3 className="name">{name}</h3>

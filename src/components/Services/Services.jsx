@@ -12,8 +12,8 @@ function Services() {
 			<div className="bg-div">
 				<div>
 					<div className="center-text">
-						<div className="center-text-div">
-							<h2 className="text-4xl font-medium mb-8 mt-14 text-[#fcbcb2]">
+						<div className="center-text-div lg:w-2/4 lg:px-0 px-7">
+							<h2 className="lg:text-4xl text-2xl font-medium mb-8 mt-14 text-[#fcbcb2]">
 								"Transform your look with our Hair Styling services!"
 							</h2>
 							<p className="text-lg text-white">
@@ -27,7 +27,7 @@ function Services() {
 					</div>
 					<div className="flex-div flex justify-center mt-24">
 						<div>
-							<div className="flex1 flex gap-5">
+							<div className="flex1 flex lg:flex-row flex-col gap-5">
 								<div class="flex-item">
 									<figure>
 										<img src={img1} alt="image" loading="lazy" />
@@ -47,8 +47,8 @@ function Services() {
 									</figure>
 								</div>
 							</div>
-							<div className="flex2 flex justify-center">
-								<div className="flex gap-5">
+							<div className="flex2 flex lg:flex-row flex-col justify-center">
+								<div className="flex lg:flex-row flex-col gap-5">
 									<div class="flex-item">
 										<figure>
 											<img src={img6} alt="image" />

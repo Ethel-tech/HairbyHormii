@@ -5,11 +5,11 @@ import "./hero.scss";
 
 function Hero() {
 	return (
-		<section className="hero h-full text-[#09223E] text-base">
+		<section className="hero h-full text-[#09223E] text-base lg:pt-0 px-10 lg:px-0 md:pt-0 pt-32">
 			<div className="flex gap-32 some">
 				<div className="w-2/4 mt-16 flex justify-center self-center">
 					<div className="">
-						<h1 className="text-[#fff] leading-snug text-5xl font-bold">
+						<h1 className="text-[#fff] leading-snug text-2xl lg:text-5xl font-bold">
 							​BEAUTIFUL. <br /> GLAMOROUS.
 							<br /> CONFIDENT.
 						</h1>

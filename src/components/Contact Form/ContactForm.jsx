@@ -4,7 +4,7 @@ import CustomButton from "../CustomButton/CustomButton";
 
 function ContactForm() {
 	return (
-		<section className="flex py-24 justify-center text-[#fcbcb2] bg-[#31353d] ">
+		<section className="flex px-10 py-24 justify-center text-[#fcbcb2] bg-[#31353d] ">
 			<div>
 				<h3 className="text-2xl mb-5">
 					BE THE FIRST TO KNOW ABOUT SPECIAL SALES AND NEW ARRIVALS
